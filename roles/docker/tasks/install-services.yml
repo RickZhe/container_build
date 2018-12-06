@@ -1,0 +1,12 @@
+# yum-update.yml
+
+---
+- name: Installing services
+  yum:
+    name: 
+      - docker
+      - htop
+      - tree
+    state: present
+- name: Ensure docker starts
+  service: name=docker state=started enabled=yes

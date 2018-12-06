@@ -1,0 +1,9 @@
+# Adding user to a group
+
+---
+
+- name: Adding user to a group
+  user:
+    name: ec2-user
+    group: docker
+
