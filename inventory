@@ -1,7 +1,7 @@
 # hosts-dev
 
-[docker1]
+[us-east-1a]
+54.86.108.113
 
-
-[docker2]
-
+[us-east-1b]
+54.208.61.86
