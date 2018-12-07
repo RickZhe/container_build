@@ -1,0 +1,8 @@
+---
+- name: Uninstalling services/packages
+  yum:
+    name:
+      - docker
+      - screen
+    state: removed
+    update_cache: true

@@ -7,5 +7,9 @@
       - htop
       - tree
     state: present
+
+#- name: Enable amazon=linux-extras packages
+#  shell: "amazon-linux-extras install docker"
+
 - name: Ensure docker starts
   service: name=docker state=started enabled=yes
